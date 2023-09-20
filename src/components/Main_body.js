@@ -20,7 +20,7 @@ const Main_body = () => {
           <div className="headline">
             <h3><b>Choose a plan that's just right for you !</b></h3>
           </div>
-          <div className="sidebutton">
+          <div className="sidebutton side-btn">
             <p>monthly</p>
             <p>annually</p>
             <span>10%</span>

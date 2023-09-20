@@ -40,7 +40,10 @@
     cursor: pointer;
     
 }
-.main-body .sidebutton:hover p{
+.main-body .sidebutton :nth-child(1){
+background-color: skyblue;
+}
+.side-btn p:hover{
   background-color: #0095ff;
 }
 .main-body .sidebutton span{
@@ -224,6 +227,7 @@
     margin-top: 229px;
     margin: 245px 0x;
     float: inline-end;
+    box-shadow: rgb(0,0,0,0.35) 0px 5px 15px;
     /* border: 1px solid red; */
 }
 .blank{
@@ -231,6 +235,8 @@
     border-end-start-radius: 10px;
     height: 177px;
     background-color: white;
+    box-shadow: rgb(0,0,0,0.35) 0px 5px 15px;
+
 }
 .addfunction p{
     color: #e60c0cbf;
