@@ -6,6 +6,8 @@ import {TiCloudStorageOutline } from 'react-icons/ti';
 import {MdOutlineSupportAgent } from 'react-icons/md';
 import {MdPlayArrow } from 'react-icons/md';
 import {TiTick} from 'react-icons/ti';
+import {IoMdNotifications} from 'react-icons/io';
+import {BsPlusCircle} from 'react-icons/bs';
 
 
 
@@ -113,7 +115,21 @@ const Main_body = () => {
             </div>
             
         </div>
+       
     </div>
+    <div className="rightmost">
+    <div className='notification'>
+        <p><IoMdNotifications/></p>
+        <span>3</span>
+    </div>
+    <div className="addfunction">
+         <div className="blank"></div>
+         <p><BsPlusCircle/></p>
+    </div>
+
+    </div>
+   
+    
     
     </>
   )

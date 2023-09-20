@@ -190,3 +190,57 @@
 }
 
 
+/* notication css */
+.notification{
+    border-radius: 8px;
+    background-color: white;
+    width: 47px;
+    height: 55px;
+    margin: 7px 16px;
+    display: flex;
+    box-shadow: rgb(0,0,0,0.35) 0px 5px 15px;
+}
+.notification p{
+    margin: 9px 7px;
+    color: blue;
+    font-size: 31px;
+}
+.notification span{
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+    height: 16px;
+    width: 16px;
+    background-color: red;
+    margin: 12px -21px;
+    font-size: 13px;
+    color: white;
+   
+    
+}
+.addfunction{
+    height: 92px;
+    margin-left: 30px;
+    margin-top: 229px;
+    margin: 245px 0x;
+    float: inline-end;
+    /* border: 1px solid red; */
+}
+.blank{
+    border-top-left-radius:10px ;
+    border-end-start-radius: 10px;
+    height: 177px;
+    background-color: white;
+}
+.addfunction p{
+    color: #e60c0cbf;
+    padding-top: 7px;
+    text-align: center;
+    /* align-content: center; */
+    border-radius: 50%;
+    height: 31px;
+    width: 36px;
+    background-color: #7bc4f68f;
+    margin: 20px 10px;
+    font-size: 20px;
+}
